@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react'
-import { FaTachometerAlt } from "react-icons/fa";
-import { Button } from '../ui/button';
+import { GiDeadWood } from "react-icons/gi";
 function Logo() {
   return (
-   <>
-   <Link href=''><FaTachometerAlt className='w-6 h-6'/></Link>
-   </>
+   <div className='flex items-center gap-2'>
+   <Link href=''><GiDeadWood className='w-6 h-6'/></Link>
+    <span className='font-bold text-md tracking-tight'>Woodcraft Wonders</span>
+   </div>
   )
 }
 
